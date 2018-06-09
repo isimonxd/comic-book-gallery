@@ -28,7 +28,7 @@ namespace ComicBookGallery.Models
             get
             {
                 return SeriesTitle.Replace(" ", "-").ToLower() 
-                    + "-" + IssueNumber + ".jpg;
+                    + "-" + IssueNumber + ".jpg";
                     // make the file name for the comic book cover, replaces " " with "-" 
             }
         }
